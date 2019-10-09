@@ -7,13 +7,11 @@ const path = require("path");
 
 const { platform } = process;
 const execProcess = promisify(exec);
-console.log(platform);
 
 const textPath = path.join(__dirname, "..", "assets", "chola_mais.txt");
 
 const script = path.join(__dirname, "windows.jscript");
 
-console.log(script);
 const ogg = path.join(__dirname, "..", "assets", "chola_mais.ogg");
 const mp3 = path.join(__dirname, "..", "assets", "chola_mais.mp3");
 
