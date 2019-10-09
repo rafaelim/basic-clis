@@ -1,0 +1,10 @@
+{
+  "name": "chola-mais",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "bin": "src/index.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
